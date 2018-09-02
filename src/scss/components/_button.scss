@@ -1,0 +1,21 @@
+.button{
+    font-weight: 600;
+    // font-family: $font-header
+    &.btn-rounded{
+        border-radius: 50px;
+    }
+    
+    &.btn-outline{
+        background-color: transparent;
+        border: 2px solid $pink;
+        color: $pink;
+        &.secondary{
+            border: 1px solid $white;
+            color: $white;
+        }
+        &:hover{
+            background-color: #EEE;
+            color: $darkgrey;
+        }
+    }
+}

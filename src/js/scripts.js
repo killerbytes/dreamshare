@@ -1,9 +1,7 @@
-(function ($, window, document, undefined) {
+(function($, window, document, undefined) {
+  "use strict";
 
-  'use strict';
-
-  $(function () {
-    // FastShell
+  $(function() {
+    $(document).foundation();
   });
-
 })(jQuery, window, document);
